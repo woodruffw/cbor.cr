@@ -29,6 +29,16 @@ Crystal bindings for [libcbor](https://github.com/PJK/libcbor).
 
 ```crystal
 require "CBOR"
+
+# Note: These print binary data!
+puts -1.to_cbor
+puts nil.to_cbor
+puts true.to_cbor
+puts 3.14.to_cbor
+puts "abc".to_cbor
+puts [1, 2, 3, "four"].to_cbor
+puts Hash{"key" => "value"}.to_cbor
+puts Time.now.to_cbor
 ```
 
 CBOR.cr does not currently provide a mapping-style API, like the core JSON or YAML modules.
