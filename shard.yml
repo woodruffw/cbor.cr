@@ -1,0 +1,9 @@
+name: CBOR
+version: 0.1.0
+
+authors:
+  - William Woodruff <william@yossarian.net>
+
+crystal: 0.29.0
+
+license: MIT
