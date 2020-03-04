@@ -1,6 +1,8 @@
 CBOR.cr
 ====
 
+[![Build Status](https://img.shields.io/github/workflow/status/woodruffw/cbor.cr/CI/master)](https://github.com/woodruffw/cbor.cr/actions?query=workflow%3ACI)
+
 Crystal bindings for [libcbor](https://github.com/PJK/libcbor).
 
 ## Status
