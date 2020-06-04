@@ -1,6 +1,7 @@
 CBOR.cr
 ====
 
+![license](https://raster.shields.io/badge/license-MIT%20with%20restrictions-green.png)
 [![Build Status](https://img.shields.io/github/workflow/status/woodruffw/cbor.cr/CI/master)](https://github.com/woodruffw/cbor.cr/actions?query=workflow%3ACI)
 
 Crystal bindings for [libcbor](https://github.com/PJK/libcbor).
